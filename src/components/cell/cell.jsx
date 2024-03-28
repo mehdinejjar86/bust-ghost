@@ -12,7 +12,7 @@ const Cell = ({ probability, showProbability, hasGhost, onClick, id }) => {
 
   return (
     <div className="cell" onClick={handleClick} style={{ backgroundColor }}>
-      {hasGhost && <div className="ghost">👻</div>}
+      {hasGhost && <div className="ghost"></div>} {/*ghost here*/} 
       {showProbability && <Probability probability={probability} />}
     </div>
   );
