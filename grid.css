@@ -1,0 +1,21 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    12,
+    1fr
+  ); /* 12 columns, each taking up 1 fraction of the available space */
+  grid-template-rows: repeat(
+    9,
+    auto
+  ); /* 9 rows, height adjusts based on content */
+  gap: 2px; /* Space between cells */
+  width: 100%; /* Fill the available width */
+  height: auto; /* Height is based on the content, adjust if necessary */
+  overflow: auto; /* Allows scrolling within the container if necessary */
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

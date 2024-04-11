@@ -1,0 +1,10 @@
+.probability-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Adjust based on your design */
+  width: 50px; /* Adjust based on your design */
+
+  color: #333; /* Dark grey text */
+  font-size: 15px; /* Adjust based on your design */
+}
